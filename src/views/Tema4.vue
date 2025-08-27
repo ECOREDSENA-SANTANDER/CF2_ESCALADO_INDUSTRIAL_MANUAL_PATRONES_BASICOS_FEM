@@ -5,7 +5,27 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Tema 4
+      h1 Disposición técnica de patrones
+
+    .subt.d-flex.align-items-end.mb-4(data-aos="fade-right")
+      .subt--img
+        img(src='@/assets/curso/temas/t2/subt.svg', alt='')
+      .subt--text
+        h3.mb-0 
+
+
+    .subt.d-flex.align-items-end.mb-4(data-aos="fade-right")
+      .subt--img
+        img(src='@/assets/curso/temas/t2/subt.svg', alt='')
+      .subt--text
+        h3.mb-0 
+
+
+    .subt.d-flex.align-items-end.mb-4(data-aos="fade-right")
+      .subt--img
+        img(src='@/assets/curso/temas/t2/subt.svg', alt='')
+      .subt--text
+        h3.mb-0 
 
 
 </template>
