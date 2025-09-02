@@ -41,6 +41,7 @@ figcaption, table caption
 .fa-lista
   li
     display: flex !important
+    align-items: flex-start
   li:before
     position: relative
     margin-right: 7px
@@ -78,9 +79,36 @@ figcaption, table caption
 
 
 .bg-1
-  background-color: #FDEFED
+  background-color: #FDEFED !important
 .bg-2
-  background-color: #E7F5F0
+  background-color: #E7F5F0 !important
+.bg-3
+  background-color: #FFE2E3 !important
+.bg-4
+  background-color: #FFF0F1 !important
+.bg-5
+  background-color: #A1D8C6 !important
+.bg-6
+  background-color: #8B3A2E 
+.bg-7
+  background-color: #F0E5FB
+.bgi-1
+  background-image: url('../assets/curso/temas/t2/3.png')
+  background-repeat: no-repeat
+  background-size: cover
+.bgi-2
+  background-image: url('../assets/curso/temas/t2/tarj1-fondo.svg')
+  background-repeat: no-repeat
+  background-size: cover
+.bgi-3
+  background-image: url('../assets/curso/temas/t2/bg-tab.png')
+  background-repeat: no-repeat
+  background-size: cover
+.bgi-4
+  background-image: url('../assets/curso/temas/t3/bg-deco.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
 
 
 .subt
@@ -99,3 +127,167 @@ figcaption, table caption
     border: 1px solid #E7F5F0
     border-top-right-radius: 10px
     border-bottom-right-radius: 10px
+.subt2
+  background-color: #E7F5F0
+  border-left: 5px solid #169F70
+  border-top-right-radius: 10px
+  border-bottom-right-radius: 10px
+  width: fit-content
+.tarj-hov1
+  background-color: #FFF0F1
+  transition: all 0.3s ease-out
+  &:hover 
+    background-color: #E7F5F0
+    transition: all 0.3s ease-out
+    .ico 
+      background-color: #169F70
+      transition: all 0.3s ease-out
+  .ico
+    width: 120px
+    height: 120px
+    background-color: #E8624E
+    border-radius: 500px
+    align-content: center
+    justify-content: center
+    padding: 20px
+    margin: 0 auto
+    transition: all 0.3s ease-out
+.tarj-hov2
+  background-color: #E7F5F0
+  transition: all 0.3s ease-out
+  position: relative
+  &:hover 
+    background-color: #A1D8C6
+    transition: all 0.3s ease-out
+    .ico 
+      background-color: #E8624E
+      transition: all 0.3s ease-out
+    &::before
+      background-color: #E7F5F0
+      transition: all 0.3s ease-out
+  &::before
+    content: ''
+    position: absolute
+    background-color: #A1D8C6
+    width: 30px
+    height: 55px
+    border-radius: 500px
+    border-top-left-radius: 0px
+    border-bottom-left-radius: 0px
+    left: 0px
+    transition: all 0.3s ease-out
+  .ico
+    width: 105px
+    height: 105px
+    background-color: #0D5F43
+    border-radius: 500px
+    align-content: center
+    justify-content: center
+    padding: 20px
+    margin: 0 auto
+    transition: all 0.3s ease-out
+.ico-lista img
+  width: 28px
+  margin-right: 10px
+  position: relative
+  top: 5px
+.ico-lista2 img
+  width: 14px
+  margin-right: 10px
+  position: relative
+  top: 5px
+.tarjetas-up
+  overflow: hidden
+  border-radius: 10px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 10px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -77%
+    background-color: #F0E5FB
+    i:last-child
+      display: none
+    @media (max-width: $bp-max-lg )
+      bottom: -80%
+    .flecha
+      background-color: #7000D2
+      height: 30px
+      width: 30px
+      align-content: center
+      text-align: center
+      border-radius: 500px
+      margin-right: 15px
+      i
+        color: $white
+  &:hover
+    .tarjetas-up_card
+      bottom: -25%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+.avatar
+  position: absolute
+  bottom: 0
+  right: -11rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #FCE6E2
+  @media (max-width: 1000px)
+    padding-right: 2rem
+.crd--first, .crd--last
+  &::before
+    background-color: #FFF0F1 !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+
+
+.tarjeta-numerada
+  border: 3px solid 
+.tab-p table th, .tab-p table td
+  padding: 15px 20px
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  color: $white
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+.tabs-a
+  &__tab
+    background-color: #7000D2
+    color: #FFF
+    &__selected, &:hover
+      color: $color-sistema-texto !important
+.bloque-texto-g--inverso, .texto-g-70 
+  .bloque-texto-g__texto
+    width: 70%
+    @media (max-width: $bp-max-sm)
+      width: 100%
