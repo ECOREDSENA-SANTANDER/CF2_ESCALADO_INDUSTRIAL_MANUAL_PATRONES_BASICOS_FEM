@@ -63,56 +63,92 @@
     p La marcación técnica tiene como propósito facilitar la interpretación y el ensamblaje de los patrones. Consiste en incorporar símbolos, líneas y anotaciones que garanticen claridad durante el montaje y la confección, adaptándose tanto a entornos físicos como digitales e incluyendo accesibilidad táctil cuando se requiere. Los principales elementos son:
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-md-9.mb-3
+      .col-lg-3.col-md-6.col-10.mb-4
         .tarjetas-up
           img(src='@/assets/curso/temas/t4/tarj2-1.png' alt='')
           .tarjetas-up_card.p-4
-            .title.d-flex.align-items-center.mb-2
-              span.flecha
-                i.fas.fa-chevron-up
-                i.fas.fa-chevron-down
-              h5.mb-0 Líneas de corte y márgenes de costura
+            .title.row.align-items-center.mb-3
+              .col-2.pe-0
+                span.flecha
+                  i.fas.fa-chevron-up
+                  i.fas.fa-chevron-down
+              .col-10
+                h5.mb-0 Líneas de corte y márgenes de costura
             p Se diferencian mediante trazos de distinto grosor o texturas. La línea de corte se señala de manera más destacada, mientras que la margen de costura se presenta con trazos más finos o en relieve.
-      .col-lg-4.col-md-9.mb-3
+      .col-lg-3.col-md-6.col-10.mb-4
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/t4/tarj2-2.png' alt='')
           .tarjetas-up_card.p-4
-            .title.d-flex.align-items-center.mb-2
-              span.flecha
-                i.fas.fa-chevron-up
-                i.fas.fa-chevron-down
-              h5.mb-0 Ejes centrales
+            .title.row.align-items-center.mb-4
+              .col-2.pe-0
+                span.flecha
+                  i.fas.fa-chevron-up
+                  i.fas.fa-chevron-down
+              .col-10
+                h5.mb-0 Ejes centrales
             p Se marcan la línea central del delantero y de la espalda con puntos o perforaciones equidistantes, lo que permite una orientación clara al unir las piezas.
-      .col-lg-4.col-md-9.mb-3
+      .col-lg-3.col-md-6.col-10.mb-4
         .tarjetas-up
           img(src='@/assets/curso/temas/t4/tarj2-3.png' alt='')
           .tarjetas-up_card.p-4
-            .title.d-flex.align-items-center.mb-2
-              span.flecha
-                i.fas.fa-chevron-up
-                i.fas.fa-chevron-down
-              h5.mb-0 Dirección del hilo
+            .title.row.align-items-center.mb-4
+              .col-2.pe-0
+                span.flecha
+                  i.fas.fa-chevron-up
+                  i.fas.fa-chevron-down
+              .col-10
+                h5.mb-0 Dirección del hilo
             p Indicada mediante una flecha con línea segmentada, acompañada de texto en relieve que indica “dirección de hilo”. Este elemento es esencial para garantizar la correcta colocación de los moldes sobre el tejido.      
+      .col-lg-3.col-md-6.col-10.mb-4
+        .tarjetas-up
+          img(src='@/assets/curso/temas/t4/tarj2-4.png' alt='')
+          .tarjetas-up_card.p-4
+            .title.row.align-items-center.mb-4
+              .col-2.pe-0
+                span.flecha
+                  i.fas.fa-chevron-up
+                  i.fas.fa-chevron-down
+              .col-10
+                h5.mb-0 Muescas y piquetes
+            p Se aplican en puntos estratégicos para facilitar el empalme de piezas. Generalmente se ubican de forma simétrica y en número suficiente (usualmente tres) para evitar errores de alineación.  
+      .col-lg-3.col-md-6.col-10.mb-4
+        .tarjetas-up
+          img(src='@/assets/curso/temas/t4/tarj2-5.png' alt='')
+          .tarjetas-up_card.p-4
+            .title.row.align-items-center.mb-3
+              .col-2.pe-0
+                span.flecha
+                  i.fas.fa-chevron-up
+                  i.fas.fa-chevron-down
+              .col-10
+                h5.mb-0 Puntos de referencia adicionales
+            p Se marcan zonas clave como hombros, sisas y caderas mediante pequeños orificios o relieves, los cuales ayudan a comprobar la progresión entre tallas y a ubicar correctamente los componentes.
+      .col-lg-3.col-md-6.col-10.mb-4
+        .tarjetas-up
+          img(src='@/assets/curso/temas/t4/tarj2-6.png' alt='')
+          .tarjetas-up_card.p-4
+            .title.row.align-items-center.mb-4
+              .col-2.pe-0
+                span.flecha
+                  i.fas.fa-chevron-up
+                  i.fas.fa-chevron-down
+              .col-10
+                h5.mb-0 Etiquetado de piezas
+            p Cada molde debe incluir un bloque informativo con el nombre de la pieza, la talla, el código y la versión del escalado. Esta información se incorpora en relieve o en formato digital como metadatos.
+      .col-lg-3.col-md-6.col-10.mb-4
+        .tarjetas-up
+          img(src='@/assets/curso/temas/t4/tarj2-7.png' alt='')
+          .tarjetas-up_card.p-4
+            .title.row.align-items-center.mb-3
+              .col-2.pe-0
+                span.flecha
+                  i.fas.fa-chevron-up
+                  i.fas.fa-chevron-down
+              .col-10
+                h5.mb-0 Indicaciones de procesos especiales
+            p Se señalan elementos como dobleces, pliegues, refuerzos o márgenes de volteo mediante líneas discontinuas o símbolos normalizados, orientando sobre tratamientos posteriores en la confección.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
-        ul.lista-ul--color.lista-ul--separador.ico-lista.fa-lista
-          li 
-            img(src='@/assets/curso/temas/t4/lista.svg' alt='')
-            span.mb-0 #[b Muescas y piquetes:] se aplican en puntos estratégicos para facilitar el empalme de piezas. Generalmente se ubican de forma simétrica y en número suficiente (usualmente tres) para evitar errores de alineación.
-          li 
-            img(src='@/assets/curso/temas/t4/lista.svg' alt='')
-            span.mb-0 #[b Puntos de referencia adicionales:] se marcan zonas clave como hombros, sisas y caderas mediante pequeños orificios o relieves, los cuales ayudan a comprobar la progresión entre tallas y a ubicar correctamente los componentes.
-          li 
-            img(src='@/assets/curso/temas/t4/lista.svg' alt='')
-            span.mb-0 #[b Etiquetado de piezas:] cada molde debe incluir un bloque informativo con el nombre de la pieza, la talla, el código y la versión del escalado. Esta información se incorpora en relieve o en formato digital como metadatos.
-          li 
-            img(src='@/assets/curso/temas/t4/lista.svg' alt='')
-            //i.fas.fa-vest
-            span.mb-0 #[b Indicaciones de procesos especiales:] se señalan elementos como dobleces, pliegues, refuerzos o márgenes de volteo mediante líneas discontinuas o símbolos normalizados, orientando sobre tratamientos posteriores en la confección.
-      .col-lg-4.col-md-8.col-9
-        img(src='@/assets/curso/temas/t4/3.png' alt='')
 
     .py-2
     .subt.d-flex.align-items-end.mb-4(data-aos="fade-right")
@@ -124,38 +160,36 @@
     p La verificación dimensional tiene como finalidad asegurar que las piezas escaladas se ajusten con exactitud a las medidas del cuadro de tallas y cumplan con los parámetros de calidad establecidos. Esta validación se lleva a cabo mediante inspecciones visuales y táctiles, aplicando instrumentos de medición y criterios técnicos. Las acciones principales son:
 
     .row.mb-4(data-aos="fade-down")
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-primario.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-primario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 1
-          h5.text-center Medición de cotas críticas
+          h5.text-center.px-3 Medición de cotas críticas
           p.text-center.mb-0 Se evalúan medidas fundamentales como busto, cintura, cadera o largo de pernera, dependiendo del tipo de prenda. Se utiliza regla graduada o calibrador para comparar las dimensiones reales con los valores estipulados.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-secundario.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-secundario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 2
-          h5.text-center Control de tolerancias
+          h5.text-center.px-3 Control de tolerancias
           p.text-center.mb-0 Se verifican los márgenes permitidos de variación establecidos por normas del sector o lineamientos de marca. Cualquier desviación se registra y se analiza para aplicar ajustes correctivos, si es necesario.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-acento-botones.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-acento-botones.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 3
-          h5.text-center Revisión de simetría
+          h5.text-center.px-3 Revisión de simetría
           p.text-center.mb-0 Se comparan piezas espejadas (como delantero y espalda o piernas derecha e izquierda) a fin de garantizar que las medidas y formas sean equivalentes, lo cual es crucial para la apariencia y funcionalidad del producto final.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-acento-contenido.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-acento-contenido.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 4
-          h5.text-center Validación de ángulos y alineaciones
+          h5.text-center.px-3 Validación de ángulos y alineaciones
           p.text-center.mb-0 Con escuadra técnica y plantillas angulares, se revisan los perfiles de sisas, hombros y costuras. Se busca asegurar que los ángulos estén correctamente definidos para facilitar el ensamble y la comodidad de uso.
-
-    .tarjeta-avatar-b.mb-4(data-aos="fade")
-      .tarjeta-avatar-b__img
-        img(src='@/assets/curso/temas/t4/4.png' alt='')
-      .tarjeta.tarjeta--azul.bg-4
-        .p-4
-          h4 Registro y documentación
-          p.mb-0 Todos los resultados se consignan en formatos estandarizados, ya sea en fichas físicas con relieve táctil o en sistemas digitales con campos estructurados. Esta información es clave para auditorías, trazabilidad y control de calidad en procesos industriales.
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-adicional-1.h-100.p-4.pb-4
+          .tarjeta-numerada__numero
+            .h2.text-white E
+          h5.text-center.px-3 Registro y documentación
+          p.text-center.mb-0 Todos los resultados se consignan en formatos estandarizados, ya sea en fichas físicas con relieve táctil o en sistemas digitales con campos estructurados. Esta información es clave para auditorías, trazabilidad y control de calidad en procesos industriales.
 
 
 </template>

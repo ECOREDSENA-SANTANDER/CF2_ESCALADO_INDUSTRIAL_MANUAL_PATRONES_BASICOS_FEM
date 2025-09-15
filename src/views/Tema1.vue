@@ -85,39 +85,37 @@
         h3.mb-0 Principios fundamentales
 
     .row.mb-4(data-aos="fade-down")
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-primario.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-primario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 A
-          h5.text-center Principio de proporcionalidad anatómica
+          h5.text-center.px-3 Principio de proporcionalidad anatómica
           p.text-center.mb-0 Preserva las relaciones proporcionales entre las distintas partes del patrón, de manera que el aumento o reducción entre tallas refleje fielmente las proporciones del cuerpo humano.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-secundario.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-secundario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 B
-          h5.text-center Principio de puntos de referencia (pivotes)
+          h5.text-center.px-3 Principio de puntos de referencia (pivotes)
           p.text-center.mb-0 Establece puntos estratégicos en el patrón desde donde se controlan los cambios dimensionales. Estos puntos permiten que las modificaciones no alteren la estructura ni funcionalidad de la prenda.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-acento-botones.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-acento-botones.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 C
-          h5.text-center Principio de correspondencia dimensional
+          h5.text-center.px-3 Principio de correspondencia dimensional
           p.text-center.mb-0 Asegura que las dimensiones modificadas mantengan coherencia con las áreas relacionadas del patrón, evitando desajustes en elementos complementarios como sisas, mangas o contornos.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-acento-contenido.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-acento-contenido.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 D
-          h5.text-center Principio de precisión técnica
+          h5.text-center.px-3 Principio de precisión técnica
           p.text-center.mb-0 Exige el uso riguroso de normas técnicas y tablas antropométricas validadas para definir los incrementos o reducciones, asegurando exactitud y funcionalidad en cada talla.
-
-    .tarjeta-avatar-b.mb-4(data-aos="fade")
-      .tarjeta-avatar-b__img
-        img(src='@/assets/curso/temas/t1/5.png' alt='')
-      .tarjeta.tarjeta--azul.bg-4
-        .p-4
-          h4 Principio de funcionalidad ergonómica
-          p.mb-0 Garantiza que las variaciones entre tallas conserven la capacidad de movimiento natural del cuerpo humano, aspecto crucial en prendas diseñadas para actividades físicas específicas.
-
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-adicional-1.h-100.p-4.pb-4
+          .tarjeta-numerada__numero
+            .h2.text-white E
+          h5.text-center.px-3 Principio de funcionalidad ergonómica
+          p.text-center.mb-0 Garantiza que las variaciones entre tallas conserven la capacidad de movimiento natural del cuerpo humano, aspecto crucial en prendas diseñadas para actividades físicas específicas.
+    
     .cajon.color-acento-contenido.bg-2.p-4      
       p.mb-0 La aplicación coherente de estos principios asegura que el escalado cumpla con las exigencias técnicas y ergonómicas de la confección industrial moderna.      
 

@@ -19,7 +19,7 @@
       .subt--img
         img(src='@/assets/curso/temas/t2/subt.svg', alt='')
       .subt--text
-        h3.mb-0 Principios fundamentales
+        h3.mb-0 Herramientas manuales esenciales
 
     .row.justify-content-center.mb-3(data-aos="fade-down") 
       .col-lg-4.col-md-6.col-10.mb-3
@@ -171,53 +171,63 @@
               td Digital
               td Generar copias físicas de patrones escalados para revisión y corte.
 
-    TabsA.color-acento-contenido.mb-4(data-aos="fade-down")
-      .tarjeta.bgi-3.p-4(titulo="Regla graduada")
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 2.
-          span Regla graduada
-        figure
-          img(src='@/assets/curso/temas/t2/fig2.png', alt='Dos reglas graduadas de 10 centímetros, con divisiones milimétricas uniformes; una sin borde y otra enmarcada por un contorno rectangular.')
-      .tarjeta.bgi-3.p-4(titulo="Escuadra técnica")
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 3.
-          span Escuadra técnica
-        figure
-          img(src='@/assets/curso/temas/t2/fig3.png', alt='Escuadra triangular transparente con marcas de medición en centímetros en dos de sus lados, y abertura interior con forma triangular hueca.')
-      .tarjeta.bgi-3.p-4(titulo="Curva francesa")
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 4.
-          span Curva francesa
-        figure
-          img(src='@/assets/curso/temas/t2/fig4.png', alt='Manos dibujando sobre papel de patronaje con lápiz y regla curva, apoyadas sobre líneas impresas. En la mesa también hay una regla recta metálica y una escuadra.')
-      .tarjeta.bgi-3.p-4(titulo="Cinta métrica de fibra textil")
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 5.
-          span Cinta métrica
-        figure
-          img(src='@/assets/curso/temas/t2/fig5.png', alt='Cinta métrica enrollada en varias capas, con segmentos numerados visibles y líneas de medición en tramos diferenciados.')
-    
-    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta bg-7" data-aos="fade")
-      .row(titulo="Escalímetro")
-        .col-lg-11
-          .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 6.
-            span Escalímetro
-          figure
-            img(src='@/assets/curso/temas/t2/fig6.png', alt='Regla articulada de múltiples secciones unidas por un tornillo, con marcas de medición a lo largo de cada segmento.')
-          figcaption Fuente: 
-            a(href="https://www.papelerialagaviota.com/pagina-del-producto/escalimetro-de-abanico" target="_blank") https://www.papelerialagaviota.com/pagina-del-producto/escalimetro-de-abanico
-      .row(titulo="<em>Software</em> CAD especializado")
-        .col-lg-11
-          .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 7.
-            span #[em Software] para escalado Audaces
-          figure
-            img(src='@/assets/curso/temas/t2/fig7.png', alt='Interfaz digital con piezas de patronaje dispuestas sobre fondo oscuro, delimitadas por líneas curvas y rectas con medidas visibles, organizadas para su trazado o escalado.')
-          figcaption Fuente: 
-            a(href="https://audaces.com/es/blog/patronaje-digital" target="_blank") https://audaces.com/es/blog/patronaje-digital
+    .bgi-5.p-4.mb-5
+      SlyderA.color-acento-contenido(data-aos="fade-down" tipo="b")
+        .row.justify-content-center
+          .col-lg-10.col-11
+            h4.mb-4 Regla graduada
+            .titulo-sexto.color-acento-contenido.mb-2
+              h5 Figura 2.
+              span Regla graduada
+            figure
+              img(src='@/assets/curso/temas/t2/fig2.png', alt='Dos reglas graduadas de 10 centímetros, con divisiones milimétricas uniformes; una sin borde y otra enmarcada por un contorno rectangular.')
+        .row.justify-content-center
+          .col-lg-10.col-11      
+            h4.mb-4 Escuadra técnica
+            .titulo-sexto.color-acento-contenido.mb-2
+              h5 Figura 3.
+              span Escuadra técnica
+            figure
+              img(src='@/assets/curso/temas/t2/fig3.png', alt='Escuadra triangular transparente con marcas de medición en centímetros en dos de sus lados, y abertura interior con forma triangular hueca.')
+        .row.justify-content-center
+          .col-lg-10.col-11 
+            h4.mb-4 Curva francesa
+            .titulo-sexto.color-acento-contenido.mb-2
+              h5 Figura 4.
+              span Curva francesa
+            figure
+              img(src='@/assets/curso/temas/t2/fig4.png', alt='Manos dibujando sobre papel de patronaje con lápiz y regla curva, apoyadas sobre líneas impresas. En la mesa también hay una regla recta metálica y una escuadra.')
+        .row.justify-content-center
+          .col-lg-10.col-11 
+            h4.mb-4 Cinta métrica de fibra textil
+            .titulo-sexto.color-acento-contenido.mb-2
+              h5 Figura 5.
+              span Cinta métrica
+            figure
+              img(src='@/assets/curso/temas/t2/fig5.png', alt='Cinta métrica enrollada en varias capas, con segmentos numerados visibles y líneas de medición en tramos diferenciados.')
+        .row.justify-content-center
+          .col-lg-10.col-11 
+            h4.mb-4 Escalímetro
+            .titulo-sexto.color-acento-contenido.mb-2
+              h5 Figura 6.
+              span Escalímetro
+            figure
+              img(src='@/assets/curso/temas/t2/fig6.png', alt='Regla articulada de múltiples secciones unidas por un tornillo, con marcas de medición a lo largo de cada segmento.')
+            figcaption Fuente: 
+              a(href="https://www.papelerialagaviota.com/pagina-del-producto/escalimetro-de-abanico" target="_blank") https://www.papelerialagaviota.com/pagina-del-producto/escalimetro-de-abanico
+        .row.justify-content-center
+          .col-lg-10.col-11 
+            h4.mb-4 #[em Software] CAD especializado")
+            .titulo-sexto.color-acento-contenido.mb-2
+              h5 Figura 7.
+              span #[em Software] para escalado Audaces
+            figure
+              img(src='@/assets/curso/temas/t2/fig7.png', alt='Interfaz digital con piezas de patronaje dispuestas sobre fondo oscuro, delimitadas por líneas curvas y rectas con medidas visibles, organizadas para su trazado o escalado.')
+            figcaption Fuente: 
+              a(href="https://audaces.com/es/blog/patronaje-digital" target="_blank") https://audaces.com/es/blog/patronaje-digital
 
-    .py-2
+
+    .py-3
     .subt.d-flex.align-items-end.mb-4(data-aos="fade-right")
       .subt--img
         img(src='@/assets/curso/temas/t2/subt.svg', alt='')

@@ -168,7 +168,7 @@ export default {
     {
       termino: 'Biomecánica',
       significado:
-        'estudio de las fuerzas y movimientos del cuerpo humano, utilizado para garantizar la funcionalidad y control de las prendas en movimiento.',
+        'estudio de las fuerzas y movimientos del cuerpo humano, utilizado para garantizar la funcionalidad y confort de las prendas en movimiento.',
     },
     {
       termino: 'Cuadro de tallas',
@@ -234,51 +234,50 @@ export default {
   referencias: [
     {
       referencia:
-        "Aldrich (2015) Aldrich, W. (2015). Metric pattern cutting for women's wear (6<sup>th</sup> ed.). Bloomsbury Publishing.",
+        "Aldrich, W. (2015). Metric pattern cutting for women's wear (6<sup>th</sup> ed.). Bloomsbury Publishing.",
     },
     {
       referencia:
-        "Cooklin (2008) Cooklin, G. (2008). Pattern grading for women's clothes: The technology of sizing. OM Books",
+        "Cooklin, G. (2008). Pattern grading for women's clothes: The technology of sizing. OM Books",
     },
     {
       referencia:
-        "Handford (2001) Handford, J. (2001). Professional pattern grading for women's, men's, and children's apparel. TechStyle Publishing.",
+        "Handford, J. (2001). Professional pattern grading for women's, men's, and children's apparel. TechStyle Publishing.",
     },
     {
       referencia:
-        'Joseph-Amstrong (2014) Joseph-Amstrong, H. (2014). Patternmaking for fashion design (5<sup>th</sup> ed.). Pearson Education.',
+        'Joseph-Amstrong, H. (2014). Patternmaking for fashion design (5<sup>th</sup> ed.). Pearson Education.',
     },
     {
       referencia:
-        'Mallet & Zamkoff (2002) Mallet, K. K., & Zamkoff, B. (2002). Grading techniques for fashion design. Fairchild Books.',
+        'Mallet, K. K., & Zamkoff, B. (2002). Grading techniques for fashion design. Fairchild Books.',
     },
     {
       referencia:
-        "Muller & Sohn (2020) Muller & Sohn. (2020). Grading for women's and children's clothing. Verlag Müller & Sohn.",
+        "Muller & Sohn. (2020). Grading for women's and children's clothing. Verlag Müller & Sohn.",
     },
     {
       referencia:
-        'Inexmoda (2023) Inexmoda. (2023). Informe sectorial del sistema moda: industria textil y confección en Colombia. Observatorio de Moda Inexmoda.',
+        'Inexmoda. (2023). Informe sectorial del sistema moda: industria textil y confección en Colombia. Observatorio de Moda Inexmoda.',
     },
     {
       referencia:
-        'Muñoz (2019) Muñoz, A. (2019). Manual de patronaje industrial para hombre: Trazado y escalado. Editorial Textil.',
+        'Muñoz, A. (2019). Manual de patronaje industrial para hombre: Trazado y escalado. Editorial Textil.',
     },
     {
       referencia:
-        'Price & Zamkoff (2002) Price, J., & Zamkoff, B. (2002). Concepts of pattern grading: Techniques for manual and computer grading. Fairchild Books.',
+        'Price, J., & Zamkoff, B. (2002). Concepts of pattern grading: Techniques for manual and computer grading. Fairchild Books.',
     },
     {
       referencia:
-        'Rodríguez (2020) Rodríguez, L. (2020). Patronaje industrial de prendas de vestir: Estudios y aplicaciones. Editorial Bogotá.',
+        'Rodríguez, L. (2020). Patronaje industrial de prendas de vestir: Estudios y aplicaciones. Editorial Bogotá.',
     },
     {
       referencia:
-        'Sevi Heidi (2024) Sevi Heidi. (2024). Ultimate guide to grading garments for production. Successful Fashion Designer.',
+        'Sevi Heidi. (2024). Ultimate guide to grading garments for production. Successful Fashion Designer.',
     },
     {
-      referencia:
-        "Studio Faro (2022) Studio Faro. (2022). Grading women's patterns. Studio Faro.",
+      referencia: "Studio Faro. (2022). Grading women's patterns. Studio Faro.",
     },
   ],
   creditos: [

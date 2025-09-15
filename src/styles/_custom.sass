@@ -109,6 +109,10 @@ figcaption, table caption
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+.bgi-5
+  background-image: url('../assets/curso/temas/t2/bg-slider.png')
+  background-repeat: no-repeat
+  background-size: cover
 
 
 .subt
@@ -214,13 +218,13 @@ figcaption, table caption
     @media (max-width: $bp-max-lg )
       bottom: -80%
     .flecha
+      display: block
       background-color: #7000D2
       height: 30px
       width: 30px
       align-content: center
       text-align: center
       border-radius: 500px
-      margin-right: 15px
       i
         color: $white
   &:hover
@@ -267,6 +271,10 @@ figcaption, table caption
 
 .tarjeta-numerada
   border: 3px solid 
+  &.color-adicional-1
+    border-color: #727997
+    .tarjeta-numerada__numero
+      background-color: #727997
 .tab-p table th, .tab-p table td
   padding: 15px 20px
 .circl-arrow .slyder-f__btn i
@@ -291,3 +299,16 @@ figcaption, table caption
     width: 70%
     @media (max-width: $bp-max-sm)
       width: 100%
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #7000D2
+.slyder-a__bullets__item
+  background-color: #BEA1D8
+  border-color: #BEA1D8
+.slyder-a__bullets__item:hover
+  background-color: #7000D2
+.slyder-a__bullets__item--active
+  border-color: #7000D2
+  background-color: #7000D2
+@media (min-width: $bp-min-xl)
+  .col-lg-cinco
+    width: 20% !important

@@ -33,7 +33,7 @@
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/t3/3.jpg')})`}")
       .bloque-texto-g__texto.tarjeta.p-4
-        p.mb-0 El plano cartesiano es un sistema de referencia bidimensional que organiza los puntos en un espacio mediante dos ejes perpendiculares: el eje horizontal, denominado X, y el eje vertical, denominado Y. Cada punto se ubica a partir de un par ordenado de coordenadas (X, Y) que indica su distancia y sentido respecto al origen, punto de intersección de ambos ejes. Este sistema permite cuantificar y representar con precisión posiciones, desplazamientos y transformaciones geométricas, lo que lo convierte en una herramienta fundamental para el escalado de patrones, al facilitar el cálculo y traslado de cada vértice del molde base.
+        p.mb-0 El plano cartesiano es un sistema de referencia bidimensional que organiza los puntos en un espacio mediante dos ejes perpendiculares: el eje horizontal, denominado #[b X], y el eje vertical, denominado #[b Y]. Cada punto se ubica a partir de un par ordenado de #[b coordenadas (X, Y)] que indica su distancia y sentido respecto al origen, punto de intersección de ambos ejes. Este sistema permite cuantificar y representar con precisión posiciones, desplazamientos y transformaciones geométricas, lo que lo convierte en una herramienta fundamental para el escalado de patrones, al facilitar el cálculo y traslado de cada vértice del molde base.
 
     .mb-5(data-aos="fade")
       .row.justify-content-center
@@ -54,7 +54,7 @@
       .subt--text
         h3.mb-0 Proceso de marcado en un plano cartesiano
 
-    p.mb-4 En el sistema de coordenadas cartesianas, dos rectas perpendiculares se cruzan en un punto denominado origen. La recta horizontal se llama eje X y la vertical, eje Y. Estos ejes dividen el plano en cuatro regiones conocidas como cuadrantes, cuya disposición facilita la localización de puntos en el espacio bidimensional.
+    p.mb-4 En el #[b sistema de coordenadas cartesianas], dos rectas perpendiculares se cruzan en un punto denominado #[b origen]. La recta horizontal se llama #[b eje X] y la vertical, #[b eje Y]. Estos ejes dividen el plano en #[b cuatro regiones] conocidas como #[b cuadrantes], cuya disposición facilita la localización de puntos en el espacio bidimensional.
 
     .row.justify-content-center.mb-4
       .col-lg-8.mb-3.mb-lg-0(data-aos="fade-right")
@@ -62,16 +62,16 @@
           ul.lista-ul--color.ico-lista2.fa-lista
             li 
               img(src='@/assets/curso/temas/t4/lista.svg' alt='')
-              span.mb-0 #[b Primer cuadrante:] ubicado en la parte superior derecha respecto al origen. Aquí, ambas coordenadas (X y Y) son positivas, lo que indica posiciones hacia la derecha y hacia arriba.
+              span.mb-0 #[b Primer cuadrante:] ubicado en la parte #[b superior derecha] respecto al origen. Aquí, ambas coordenadas (#[b X] y #[b Y]) son #[b positivas], lo que indica posiciones hacia la derecha y hacia arriba.
             li 
               img(src='@/assets/curso/temas/t4/lista.svg' alt='')
-              span.mb-0 #[b Segundo cuadrante:] se encuentra en la zona superior izquierda del plano. En esta región, X es negativo y para este caso Y es positivo, representando desplazamientos hacia la izquierda y hacia arriba.
+              span.mb-0 #[b Segundo cuadrante:] se encuentra en la #[b zona superior] izquierda del plano. En esta región, #[b X] es #[b negativo] y para este caso #[b Y] es #[b positivo], representando desplazamientos hacia la izquierda y hacia arriba.
             li 
               img(src='@/assets/curso/temas/t4/lista.svg' alt='')
-              span.mb-0 #[b Tercer cuadrante:] corresponde a la parte inferior izquierda. En este cuadrante, tanto X como Y son negativos, lo que sitúa los puntos hacia la izquierda y hacia abajo.
+              span.mb-0 #[b Tercer cuadrante:] corresponde a la #[b parte inferior izquierda]. En este cuadrante, tanto #[b X] como #[b Y] son #[b negativos], lo que sitúa los puntos hacia la izquierda y hacia abajo.
             li 
               img(src='@/assets/curso/temas/t4/lista.svg' alt='')
-              span.mb-0 #[b Cuarto cuadrante:] ubicado en la parte inferior derecha. Aquí, X es positivo y por ende Y es negativo, reflejando desplazamientos hacia la derecha y hacia abajo.
+              span.mb-0 #[b Cuarto cuadrante:] ubicado en la #[b parte inferior derecha]. Aquí, #[b X] es #[b positivo] y por ende #[b Y] es #[b negativo], reflejando desplazamientos hacia la derecha y hacia abajo.
       .col-lg-4.col-md-9(data-aos="fade-left")
         .bgi-4
           .titulo-sexto.color-acento-contenido.mb-3
@@ -89,8 +89,8 @@
           img(src='@/assets/curso/temas/t3/4.png', alt='')
         .col-lg-7
           .p-4
-            p La orientación de los ejes y la división del plano en cuadrantes permite ubicar con precisión cualquier punto mediante un par ordenado (X, Y). Esta estructura es fundamental para aplicar transformaciones geométricas, como el escalado de patrones, ya que proporciona un marco de referencia uniforme y replicable para el trazado y manipulación de vértices, líneas y figuras en el diseño técnico.
-            p El punto cero, también denominado origen, se sitúa en la intersección del eje X (horizontal) y del eje Y (vertical), marcando las coordenadas (0, 0). Para iniciar el trabajo sobre el plano cartesiano a partir de este punto, se siguen estos pasos:
+            p La orientación de los ejes y la división del plano en cuadrantes permite ubicar con precisión cualquier punto mediante un par ordenado #[b (X, Y)]. Esta estructura es fundamental para aplicar transformaciones geométricas, como el escalado de patrones, ya que proporciona un marco de referencia uniforme y replicable para el trazado y manipulación de vértices, líneas y figuras en el diseño técnico.
+            p El punto cero, también denominado origen, se sitúa en la intersección del #[b eje X (horizontal)] y del #[b eje Y (vertical)], marcando las #[b coordenadas (0, 0)]. Para iniciar el trabajo sobre el plano cartesiano a partir de este punto, se siguen estos pasos:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8(data-aos="fade-right")
@@ -118,7 +118,7 @@
             span Origen o punto 0
         .col-lg-6.col-md-9
           figure.mb-3
-            img(src='@/assets/curso/temas/t3/fig11.svg', alt='Plano cartesiano con líneas horizontales y verticales que se cruzan en el centro, marcando el punto de origen. Está dividido en cuatro cuadrantes numerados, con los ejes identificados como X y Y.')
+            img(src='@/assets/curso/temas/t3/fig11.svg', alt='Plano cartesiano con numeración positiva y negativa sobre los ejes X y Y. El punto de intersección está señalado como origen o punto cero mediante una flecha descriptiva.')
           figcaption Fuente: 
             a(href="https://www.significados.com/plano-cartesiano/" target="_blank") https://www.significados.com/plano-cartesiano/
 
@@ -144,7 +144,7 @@
           h5 Figura 12.
           span Ejemplo de aplicación paso 1
         figure.mb-3
-          img(src='@/assets/curso/temas/t3/fig12.svg', alt='Plano cartesiano con numeración positiva y negativa sobre los ejes X y Y. El punto de intersección está señalado como origen o punto cero mediante una flecha descriptiva.')
+          img(src='@/assets/curso/temas/t3/fig12.svg', alt='Plano cartesiano con fondo cuadriculado, dividido en cuatro cuadrantes numerados con cifras romanas. Incluye cuatro puntos con coordenadas señaladas mediante líneas punteadas desde los ejes, ubicados en distintas posiciones del plano.')
         figcaption Fuente: 
           a(href=" https://www.significados.com/plano-cartesiano/" target="_blank") https://www.significados.com/plano-cartesiano/
       .col-lg-6(data-aos="fade-left")
@@ -200,7 +200,7 @@
         ol.lista-ol.fa-lista
           li
             span a. 
-            span.mb-0 A partir del punto P₁ y la pendiente m = 1, se usa la forma punto pendiente: #[br]
+            span.mb-0 A partir del punto P₁ y la pendiente m = 1, se usa la forma punto - pendiente: #[br]
               span.mb-0 #[b Y – (Y₁) = M * (X - X₁)] #[br]
               span.mb-0 Y - (-3) = 1 * (X - (-4))
           li
@@ -214,14 +214,14 @@
         .subt2.py-1.ps-3.pe-4.mb-3
           h4.mb-0 Importante:
         p ΔX representa la variación en la componente horizontal entre dos puntos en el plano cartesiano. Se calcula restando la coordenada X del punto de partida de la coordenada X del punto de llegada, de modo que ΔX = X₂ -X₁, y refleja el desplazamiento sobre el eje X.
-        p.mb-0 ΔY representa la variación en la componente vertical entre dos puntos en el plano cartesiano. Se calcula restando la coordenada Y del punto de partida de la coordenada Y del punto de llegada, de modo que ΔY = Y₂ − Y₁, y refleja el desplazamiento sobre el eje Y.
+        p.mb-0 ΔY representa la variación en la componente vertical entre dos puntos en el plano cartesiano. Se calcula restando la coordenada Y del punto de partida de la coordenada Y del punto de llegada, de modo que ΔY = Y₂ - Y₁, y refleja el desplazamiento sobre el eje Y.
 
     .bloque-texto-g.bloque-texto-g--inverso.bg-5.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/t3/8.jpg')})`}")
       .bloque-texto-g__texto.tarjeta.p-4.py-5.d-flex.flex-column
         p De este modo, la recta que conecta P₁ y P₂ se expresa como Y = X + 1, fórmula que permite proyectar cualquier punto intermedio o prolongar la dirección del vector, conservando la proporción 1:1 entre los ejes.
-        p.mb-0 El plano cartesiano constituye una herramienta fundamental para el escalado de patrones básicos al ofrecer un sistema de referencia bidimensional, que facilita la localización y transformación exacta de cada vértice del molde original. Al asignar a cada punto coordenadas (X, Y) respecto a un origen común, se logra cuantificar con precisión los desplazamientos horizontales y verticales necesarios para generar nuevas tallas, garantizando que las proporciones anatómicas permanezcan inalteradas.
+        p.mb-0 El plano cartesiano constituye una herramienta fundamental para el escalado de patrones básicos al ofrecer un sistema de referencia bidimensional, que facilita la localización y transformación exacta de cada vértice del molde original. Al asignar a cada punto #[b coordenadas (X, Y)] respecto a un origen común, se logra cuantificar con precisión los desplazamientos horizontales y verticales necesarios para generar nuevas tallas, garantizando que las proporciones anatómicas permanezcan inalteradas.
     
     .cajon.color-secundario.bg-1.p-4.mb-4      
       p.mb-0 Asimismo, este sistema permite aplicar progresiones de talla de forma metódica y reproducible; al trabajar sobre ejes ortogonales, las variaciones dimensionales se proyectan de manera uniforme y se evita la acumulación de errores en contornos complejos. En entornos digitales, el uso del plano cartesiano facilita la integración con programas de diseño asistido, donde las operaciones de escalado se realizan mediante coordenadas, acelerando el proceso técnico y reduciendo la dependencia de mediciones manuales. De este modo, el plano cartesiano no solo aporta rigor geométrico, sino que también optimiza la eficiencia y la consistencia en el desarrollo de series multitalle.
@@ -258,7 +258,7 @@
             span.mb-0 #[b Trazado del eje vertical:] desde el punto medio de cintura, se proyecta una línea perpendicular hacia el borde inferior del patrón. Esta línea representa el eje de largo y funciona como referencia central para el alineamiento del molde.
           li 
             img(src='@/assets/curso/temas/t4/lista.svg' alt='')
-            span.mb-0 #[b Ubicación del pivote principal:] se identifica la línea central posterior, marcando la intersección entre la línea de cintura y el eje vertical previamente trazado. Este cruce se denomina pivote principal, punto clave para estructurar el patrón.
+            span.mb-0 #[b Ubicación del pivote principal:] se identifica la línea central posterior, marcando la intersección entre la línea de cintura y el eje vertical previamente trazado. Este cruce se denomina #[b pivote principal], punto clave para estructurar el patrón.
           li 
             img(src='@/assets/curso/temas/t4/lista.svg' alt='')
             span.mb-0 #[b Trazado del eje horizontal:] con ayuda de una escuadra técnica, se traza una línea perpendicular al eje vertical desde el pivote principal. Esta línea constituye el eje de ancho, garantizando la perpendicularidad y la exactitud geométrica del molde.
@@ -275,48 +275,46 @@
       .tarjeta.tarjeta--blanca.p-4.p-lg-5
         .subt2.py-1.ps-3.pe-4.mb-3
           h4.mb-0 Importante:
-        p.mb-0 En patronaje, las líneas ortogonales son esenciales porque permiten construir patrones con exactitud y simetría, ya que forman estructuras perpendiculares (90°). Este término es el adecuado cuando se habla de ejes guía, aplome y trazado técnico.
+        p.mb-0 En patronaje, las líneas #[b ortogonales] son esenciales porque permiten construir patrones con exactitud y simetría, ya que forman estructuras perpendiculares (90°). Este término es el adecuado cuando se habla de ejes guía, aplome y trazado técnico.
 
     p.mb-4 Las principales funciones de los puntos de aplome son:
 
     .row.mb-4(data-aos="fade-down")
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-primario.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-primario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 A
-          h5.text-center Servir como pivotes de crecimiento
+          h5.text-center.px-3 Servir como pivotes de crecimiento
           p.text-center.mb-0 Permiten establecer el origen de los desplazamientos dimensionales al proyectar las progresiones de talla, de modo que cada incremento o reducción parta de un punto fijo y evite distorsiones.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-secundario.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-secundario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 B
-          h5.text-center Mantener la simetría del patrón
+          h5.text-center.px-3 Mantener la simetría del patrón
           p.text-center.mb-0 Facilitan la verificación de que los incrementos aplicados en ambos lados del molde sean idénticos, soportando el equilibrio geométrico entre piezas opuestas.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-acento-botones.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-acento-botones.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 C
-          h5.text-center Asegurar la orientación correcta del hilo
+          h5.text-center.px-3 Asegurar la orientación correcta del hilo
           p.text-center.mb-0 Guían la alineación de la dirección de tejido o de la trama de la tela, de manera que la prenda resultante respete las propiedades mecánicas y viceversa.
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta-numerada.color-acento-contenido.h-100.p-5.pb-4
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-acento-contenido.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 D
-          h5.text-center Comprobar la congruencia entre áreas adyacentes
+          h5.text-center.px-3 Comprobar la congruencia entre áreas adyacentes
           p.text-center.mb-0 Permiten contrastar que las modificaciones en una zona del patrón no generen desajustes en contornos colindantes, como sisa, costados o línea de cintura.
-
-    .tarjeta-avatar-b.mb-4(data-aos="fade")
-      .tarjeta-avatar-b__img
-        img(src='@/assets/curso/temas/t3/10.png' alt='')
-      .tarjeta.tarjeta--azul.bg-4
-        .p-4
-          h4 Facilitar la ubicación en el proceso de corte
-          p.mb-0 Actúan como referencias táctiles o visuales para posicionar correctamente el molde sobre el tejido, optimizando el aprovechamiento de material y reduciendo errores de alineación.
+      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+        .tarjeta-numerada.color-adicional-1.h-100.p-4.pb-4
+          .tarjeta-numerada__numero
+            .h2.text-white E
+          h5.text-center.px-3 Facilitar la ubicación en el proceso de corte
+          p.text-center.mb-0 Actúan como referencias táctiles o visuales para posicionar correctamente el molde sobre el tejido, optimizando el aprovechamiento de material y reduciendo errores de alineación.
 
 
     Separador    
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.3  Identificación y función de los puntos de aplome
+      h2 3.3 Aplicación de técnicas específicas para escalado en prendas superiores e inferiores
     
     p.mb-5 La implementación de técnicas de escalado en prendas superiores e inferiores requiere adaptar los incrementos de talla a las particularidades morfológicas y funcionales de cada tipo de vestuario. A continuación, se exponen las fases y consideraciones principales:
 
