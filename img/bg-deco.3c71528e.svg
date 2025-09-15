@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="341" viewBox="0 0 400 341">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_821" data-name="821" width="400" height="341" rx="20" transform="translate(1020 8437.089)" fill="#ffb6b9"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_1098807" data-name="Enmascarar grupo 1098807" transform="translate(-1020 -8437.089)" clip-path="url(#clip-path)">
+    <g id="Grupo_1105186" data-name="Grupo 1105186">
+      <path id="Trazado_883347" data-name="Trazado 883347" d="M740.6,912.746A117.308,117.308,0,1,1,857.9,795.438,117.441,117.441,0,0,1,740.6,912.746m0-217.942A100.633,100.633,0,1,0,841.227,795.438,100.749,100.749,0,0,0,740.6,694.8" transform="translate(271.714 7981.992)" fill="#ffb6b9"/>
+      <circle id="Elipse_11670" data-name="Elipse 11670" cx="35.5" cy="35.5" r="35.5" transform="translate(1382 8469)" fill="#169f70"/>
+    </g>
+  </g>
+</svg>
