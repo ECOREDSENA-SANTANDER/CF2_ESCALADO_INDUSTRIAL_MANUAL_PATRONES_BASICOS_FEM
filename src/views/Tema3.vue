@@ -65,7 +65,7 @@
               span.mb-0 #[b Primer cuadrante:] ubicado en la parte #[b superior derecha] respecto al origen. Aquí, ambas coordenadas (#[b X] y #[b Y]) son #[b positivas], lo que indica posiciones hacia la derecha y hacia arriba.
             li 
               img(src='@/assets/curso/temas/t4/lista.svg' alt='')
-              span.mb-0 #[b Segundo cuadrante:] se encuentra en la #[b zona superior] izquierda del plano. En esta región, #[b X] es #[b negativo] y para este caso #[b Y] es #[b positivo], representando desplazamientos hacia la izquierda y hacia arriba.
+              span.mb-0 #[b Segundo cuadrante:] se encuentra en la #[b zona superior izquierda] del plano. En esta región, #[b X] es #[b negativo] y para este caso #[b Y] es #[b positivo], representando desplazamientos hacia la izquierda y hacia arriba.
             li 
               img(src='@/assets/curso/temas/t4/lista.svg' alt='')
               span.mb-0 #[b Tercer cuadrante:] corresponde a la #[b parte inferior izquierda]. En este cuadrante, tanto #[b X] como #[b Y] son #[b negativos], lo que sitúa los puntos hacia la izquierda y hacia abajo.

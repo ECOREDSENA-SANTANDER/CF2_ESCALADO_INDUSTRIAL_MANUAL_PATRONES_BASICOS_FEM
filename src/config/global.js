@@ -87,7 +87,8 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'Identificación y función de los puntos de aplome',
+            titulo:
+              'Aplicación de técnicas específicas para escalado en prendas superiores e inferiores',
             hash: 't_3_3',
           },
         ],
