@@ -18,9 +18,11 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.1  Proceso técnico de escalado en plano cartesiano
 
-    img.mb-4(src='@/assets/curso/temas/t3/2.png', alt='')
-
-    p.mb-5 El uso del plano cartesiano permite arbitrar un sistema de coordenadas que sirva de referencia para ubicar y desplazar cada punto del patrón base. En primera instancia, se establece un origen de coordenadas en un punto estratégico, por ejemplo, la intersección de la línea central posterior y la línea de cintura; a partir de él, se trazan ejes ortogonales, que corresponden a las dimensiones longitudinal y transversal de la prenda. Sobre estos ejes, se calcula el desplazamiento de cada nodo del patrón según las progresiones de talla definidas. Todo esto para reconstruir los contornos y líneas de costura uniendo con curvas suaves o trazos rectilíneos los nuevos puntos generados, de forma que el contorno resultante mantenga la continuidad y proporción del patrón original.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6.mb-3.mb-xl-0
+        img(src='@/assets/curso/temas/t3/2.png', alt='')
+      .col-lg-6
+        p.mb-0 El uso del plano cartesiano permite arbitrar un sistema de coordenadas que sirva de referencia para ubicar y desplazar cada punto del patrón base. En primera instancia, se establece un origen de coordenadas en un punto estratégico, por ejemplo, la intersección de la línea central posterior y la línea de cintura; a partir de él, se trazan ejes ortogonales, que corresponden a las dimensiones longitudinal y transversal de la prenda. Sobre estos ejes, se calcula el desplazamiento de cada nodo del patrón según las progresiones de talla definidas. Todo esto para reconstruir los contornos y líneas de costura uniendo con curvas suaves o trazos rectilíneos los nuevos puntos generados, de forma que el contorno resultante mantenga la continuidad y proporción del patrón original.
 
     .py-2
     .subt.d-flex.align-items-end.mb-4(data-aos="fade-right")
@@ -29,13 +31,26 @@
       .subt--text
         h3.mb-0 Plano cartesiano
 
-    .bloque-texto-g.bloque-texto-g--inverso.bg-3.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
+    //.bloque-texto-g.bloque-texto-g--inverso.bg-3.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/t3/3.jpg')})`}")
       .bloque-texto-g__texto.tarjeta.p-4
         p.mb-0 El plano cartesiano es un sistema de referencia bidimensional que organiza los puntos en un espacio mediante dos ejes perpendiculares: el eje horizontal, denominado #[b X], y el eje vertical, denominado #[b Y]. Cada punto se ubica a partir de un par ordenado de #[b coordenadas (X, Y)] que indica su distancia y sentido respecto al origen, punto de intersección de ambos ejes. Este sistema permite cuantificar y representar con precisión posiciones, desplazamientos y transformaciones geométricas, lo que lo convierte en una herramienta fundamental para el escalado de patrones, al facilitar el cálculo y traslado de cada vértice del molde base.
 
-    .mb-5(data-aos="fade")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7
+        p.mb-0 El plano cartesiano es un sistema de referencia bidimensional que organiza los puntos en un espacio mediante dos ejes perpendiculares: el eje horizontal, denominado #[b X], y el eje vertical, denominado #[b Y]. Cada punto se ubica a partir de un par ordenado de #[b coordenadas (X, Y)] que indica su distancia y sentido respecto al origen, punto de intersección de ambos ejes. Este sistema permite cuantificar y representar con precisión posiciones, desplazamientos y transformaciones geométricas, lo que lo convierte en una herramienta fundamental para el escalado de patrones, al facilitar el cálculo y traslado de cada vértice del molde base.
+      .col-lg-5
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 9.
+          span Plano cartesiano
+        figure.mb-3
+          img(src='@/assets/curso/temas/t3/fig9.svg', alt='Plano cartesiano con líneas horizontales y verticales que se cruzan en el centro, marcando el punto de origen. Está dividido en cuatro cuadrantes numerados, con los ejes identificados como X y Y.')
+        figcaption.des Fuente: 
+          a(href="https://mariacolon-hatonuevo-4r.weebly.com/matemaacuteticas/el-plano-cartesiano" target="_blank") https://mariacolon-hatonuevo-4r.weebly.com/matemaacuteticas/el-plano-cartesiano
+
+
+    //.mb-5(data-aos="fade")
       .row.justify-content-center
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-3
