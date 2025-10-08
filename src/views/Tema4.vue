@@ -160,34 +160,34 @@
     p La verificación dimensional tiene como finalidad asegurar que las piezas escaladas se ajusten con exactitud a las medidas del cuadro de tallas y cumplan con los parámetros de calidad establecidos. Esta validación se lleva a cabo mediante inspecciones visuales y táctiles, aplicando instrumentos de medición y criterios técnicos. Las acciones principales son:
 
     .row.mb-4(data-aos="fade-down")
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-primario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 1
           h5.text-center.px-3 Medición de cotas críticas
           p.text-center.mb-0 Se evalúan medidas fundamentales como busto, cintura, cadera o largo de pernera, dependiendo del tipo de prenda. Se utiliza regla graduada o calibrador para comparar las dimensiones reales con los valores estipulados.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 2
           h5.text-center.px-3 Control de tolerancias
           p.text-center.mb-0 Se verifican los márgenes permitidos de variación establecidos por normas del sector o lineamientos de marca. Cualquier desviación se registra y se analiza para aplicar ajustes correctivos, si es necesario.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-botones.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 3
           h5.text-center.px-3 Revisión de simetría
           p.text-center.mb-0 Se comparan piezas espejadas (como delantero y espalda o piernas derecha e izquierda) a fin de garantizar que las medidas y formas sean equivalentes, lo cual es crucial para la apariencia y funcionalidad del producto final.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 4
           h5.text-center.px-3 Validación de ángulos y alineaciones
           p.text-center.mb-0 Con escuadra técnica y plantillas angulares, se revisan los perfiles de sisas, hombros y costuras. Se busca asegurar que los ángulos estén correctamente definidos para facilitar el ensamble y la comodidad de uso.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-adicional-1.h-100.p-4.pb-4
           .tarjeta-numerada__numero
-            .h2.text-white E
+            .h2.text-white 5
           h5.text-center.px-3 Registro y documentación
           p.text-center.mb-0 Todos los resultados se consignan en formatos estandarizados, ya sea en fichas físicas con relieve táctil o en sistemas digitales con campos estructurados. Esta información es clave para auditorías, trazabilidad y control de calidad en procesos industriales.
 

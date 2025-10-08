@@ -212,7 +212,7 @@
     .bgi-1.p-lg-5.p-4.mb-4(data-aos="fade")   
       .tarjeta.tarjeta--blanca.p-4.p-lg-5
         .subt2.py-1.ps-3.pe-4.mb-3
-          h4.mb-0 Importante:
+          h4.mb-0 Importante
         p ΔX representa la variación en la componente horizontal entre dos puntos en el plano cartesiano. Se calcula restando la coordenada X del punto de partida de la coordenada X del punto de llegada, de modo que ΔX = X₂ -X₁, y refleja el desplazamiento sobre el eje X.
         p.mb-0 ΔY representa la variación en la componente vertical entre dos puntos en el plano cartesiano. Se calcula restando la coordenada Y del punto de partida de la coordenada Y del punto de llegada, de modo que ΔY = Y₂ - Y₁, y refleja el desplazamiento sobre el eje Y.
 
@@ -274,37 +274,37 @@
     .bgi-1.p-lg-5.p-4.mb-5(data-aos="fade")   
       .tarjeta.tarjeta--blanca.p-4.p-lg-5
         .subt2.py-1.ps-3.pe-4.mb-3
-          h4.mb-0 Importante:
+          h4.mb-0 Importante
         p.mb-0 En patronaje, las líneas #[b ortogonales] son esenciales porque permiten construir patrones con exactitud y simetría, ya que forman estructuras perpendiculares (90°). Este término es el adecuado cuando se habla de ejes guía, aplome y trazado técnico.
 
     p.mb-4 Las principales funciones de los puntos de aplome son:
 
     .row.mb-4(data-aos="fade-down")
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-primario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 A
           h5.text-center.px-3 Servir como pivotes de crecimiento
           p.text-center.mb-0 Permiten establecer el origen de los desplazamientos dimensionales al proyectar las progresiones de talla, de modo que cada incremento o reducción parta de un punto fijo y evite distorsiones.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 B
           h5.text-center.px-3 Mantener la simetría del patrón
           p.text-center.mb-0 Facilitan la verificación de que los incrementos aplicados en ambos lados del molde sean idénticos, soportando el equilibrio geométrico entre piezas opuestas.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-botones.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 C
           h5.text-center.px-3 Asegurar la orientación correcta del hilo
           p.text-center.mb-0 Guían la alineación de la dirección de tejido o de la trama de la tela, de manera que la prenda resultante respete las propiedades mecánicas y viceversa.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 D
           h5.text-center.px-3 Comprobar la congruencia entre áreas adyacentes
           p.text-center.mb-0 Permiten contrastar que las modificaciones en una zona del patrón no generen desajustes en contornos colindantes, como sisa, costados o línea de cintura.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-adicional-1.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2.text-white E

@@ -68,8 +68,8 @@
     .bgi-1.p-lg-5.p-4.mb-4(data-aos="fade")   
       .tarjeta.tarjeta--blanca.p-4.p-lg-5
         .subt2.py-1.ps-3.pe-4.mb-3
-          h4.mb-0 Importante:
-        p.mb-0 La sigla CAD (#[em Computer-Aided Design] – Diseño Asistido por Computador), corresponde a un sistema que permite crear, modificar y optimizar diseños de patrones de forma digital y la sigla CAM (#[em Computer-Aided Manufacturing] – Manufactura Asistida por Computador), se refiere a un sistema que automatiza el proceso de fabricación a partir de los diseños realizados en CAD.
+          h4.mb-0 Importante
+        p.mb-0 La sigla CAD (#[em Computer-Aided Design] - Diseño Asistido por Computador), corresponde a un sistema que permite crear, modificar y optimizar diseños de patrones de forma digital y la sigla CAM (#[em Computer-Aided Manufacturing] – Manufactura Asistida por Computador), se refiere a un sistema que automatiza el proceso de fabricación a partir de los diseños realizados en CAD.
 
     .mb-3(data-aos="fade-down")
       .titulo-sexto.color-acento-contenido.mb-3
@@ -130,7 +130,7 @@
         h5 Tabla 2.
         span Instrumentos para escalado de patrones 
       .tabla-a.color-acento-contenido.tab-p
-        table(alt="Cuadro con ocho instrumentos clasificados como manuales o digitales, acompañados por su función principal. Incluye herramientas para medición, trazado, transferencia de medidas, edición digital y producción de patrones.")
+        table(alt="Tabla comparativa con ocho instrumentos clasificados como manuales o digitales, acompañados por su función principal. Incluye herramientas para medición, trazado, transferencia de medidas, edición digital y producción de patrones.")
           caption Fuente: SENA, (2025)
           thead
             tr.bg-4
@@ -175,7 +175,7 @@
       SlyderA.color-acento-contenido(data-aos="fade-down" tipo="b")
         .row.justify-content-center
           .col-lg-10.col-11
-            h4.mb-4 Regla graduada
+            h4.mb-4 Escala en centímetros 
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 2.
               span Regla graduada
@@ -183,7 +183,7 @@
               img(src='@/assets/curso/temas/t2/fig2.png', alt='Dos reglas graduadas de 10 centímetros, con divisiones milimétricas uniformes; una sin borde y otra enmarcada por un contorno rectangular.')
         .row.justify-content-center
           .col-lg-10.col-11      
-            h4.mb-4 Escuadra técnica
+            h4.mb-4 Herramienta de trazo 
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 3.
               span Escuadra técnica
@@ -191,7 +191,7 @@
               img(src='@/assets/curso/temas/t2/fig3.png', alt='Escuadra triangular transparente con marcas de medición en centímetros en dos de sus lados, y abertura interior con forma triangular hueca.')
         .row.justify-content-center
           .col-lg-10.col-11 
-            h4.mb-4 Curva francesa
+            h4.mb-4 Plantilla de trazo curvo 
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 4.
               span Curva francesa
@@ -199,7 +199,7 @@
               img(src='@/assets/curso/temas/t2/fig4.png', alt='Manos dibujando sobre papel de patronaje con lápiz y regla curva, apoyadas sobre líneas impresas. En la mesa también hay una regla recta metálica y una escuadra.')
         .row.justify-content-center
           .col-lg-10.col-11 
-            h4.mb-4 Cinta métrica de fibra textil
+            h4.mb-4 Instrumento flexible de medida 
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 5.
               span Cinta métrica
@@ -207,7 +207,7 @@
               img(src='@/assets/curso/temas/t2/fig5.png', alt='Cinta métrica enrollada en varias capas, con segmentos numerados visibles y líneas de medición en tramos diferenciados.')
         .row.justify-content-center
           .col-lg-10.col-11 
-            h4.mb-4 Escalímetro
+            h4.mb-4 Herramienta para escalas 
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 6.
               span Escalímetro
@@ -217,7 +217,7 @@
               a(href="https://www.papelerialagaviota.com/pagina-del-producto/escalimetro-de-abanico" target="_blank") https://www.papelerialagaviota.com/pagina-del-producto/escalimetro-de-abanico
         .row.justify-content-center
           .col-lg-10.col-11 
-            h4.mb-4 #[em Software] CAD especializado")
+            h4.mb-4 Solución tecnológica especializada 
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 7.
               span #[em Software] para escalado Audaces

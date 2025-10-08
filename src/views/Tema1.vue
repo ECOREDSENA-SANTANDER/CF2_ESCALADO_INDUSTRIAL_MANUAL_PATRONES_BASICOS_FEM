@@ -42,23 +42,23 @@
         ol.lista-ol--cuadro.lista-ol--separador.fa-lista
           li 
             .lista-ol--cuadro__vineta
-              span.fw-bold 1
+              span.fw-bold a
             span.mb-0 Generar múltiples tallas a partir de un solo patrón base, conservando las proporciones funcionales y anatómicas definidas.
           li 
             .lista-ol--cuadro__vineta
-              span.fw-bold 2
+              span.fw-bold b
             span.mb-0 Facilitar la producción industrial de prendas mediante patrones técnicamente validados y adaptados al mercado.
           li 
             .lista-ol--cuadro__vineta
-              span.fw-bold 3
+              span.fw-bold c
             span.mb-0 Optimizar los recursos productivos minimizando errores, reprocesos y pérdidas de material.
           li 
             .lista-ol--cuadro__vineta
-              span.fw-bold 4
+              span.fw-bold d
             span.mb-0 Garantizar consistencia dimensional y calidad en el ajuste de las prendas, mejorando la experiencia del usuario final.
           li 
             .lista-ol--cuadro__vineta
-              span.fw-bold 5
+              span.fw-bold e
             span.mb-0 Adaptar las prendas a la diversidad corporal de la población objetivo, utilizando referencias antropométricas reconocidas internacionalmente.
       .col-lg-3.col-md-9.col-11.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/3.png', alt='')
@@ -85,31 +85,31 @@
         h3.mb-0 Principios fundamentales
 
     .row.mb-4(data-aos="fade-down")
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-primario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 A
           h5.text-center.px-3 Principio de proporcionalidad anatómica
           p.text-center.mb-0 Preserva las relaciones proporcionales entre las distintas partes del patrón, de manera que el aumento o reducción entre tallas refleje fielmente las proporciones del cuerpo humano.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 B
           h5.text-center.px-3 Principio de puntos de referencia (pivotes)
           p.text-center.mb-0 Establece puntos estratégicos en el patrón desde donde se controlan los cambios dimensionales. Estos puntos permiten que las modificaciones no alteren la estructura ni funcionalidad de la prenda.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-botones.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 C
           h5.text-center.px-3 Principio de correspondencia dimensional
           p.text-center.mb-0 Asegura que las dimensiones modificadas mantengan coherencia con las áreas relacionadas del patrón, evitando desajustes en elementos complementarios como sisas, mangas o contornos.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2 D
           h5.text-center.px-3 Principio de precisión técnica
           p.text-center.mb-0 Exige el uso riguroso de normas técnicas y tablas antropométricas validadas para definir los incrementos o reducciones, asegurando exactitud y funcionalidad en cada talla.
-      .col-md-6.col-lg-cinco.mb-4.mb-lg-0
+      .col-md-6.col-lg-cinco.mb-4.mb-xl-0
         .tarjeta-numerada.color-adicional-1.h-100.p-4.pb-4
           .tarjeta-numerada__numero
             .h2.text-white E
@@ -162,7 +162,7 @@
         h5 Tabla 1.
         span Comparativa de tipos de escalado
       .tabla-a.color-acento-contenido.tab-p
-        table(alt="Cuadro comparativo con tres tipos de escalado: proporcional, combinado y diferencial. Se presentan características técnicas como tipo de incremento, complejidad del patrón, aplicación frecuente, precisión anatómica y adaptabilidad ergonómica.")
+        table(alt="Tabla comparativa con tres tipos de escalado: proporcional, combinado y diferencial. Se presentan características técnicas como tipo de incremento, complejidad del patrón, aplicación frecuente, precisión anatómica y adaptabilidad ergonómica.")
           caption Fuente: SENA, (2025)
           thead
             tr.bg-4
