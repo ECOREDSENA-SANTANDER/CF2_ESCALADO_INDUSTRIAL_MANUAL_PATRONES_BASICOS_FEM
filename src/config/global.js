@@ -247,6 +247,11 @@ export default {
     },
     {
       referencia:
+        'Felipe, A. K. (2025b, octubre 7). ¿Qué es el patronaje digital y cuáles son sus beneficios? Audaces.',
+      link: 'https://audaces.com/es/blog/patronaje-digital',
+    },
+    {
+      referencia:
         'Joseph-Amstrong, H. (2014). Patternmaking for fashion design (5<sup>th</sup> ed.). Pearson Education.',
     },
     {
@@ -322,7 +327,7 @@ export default {
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrolladora <i>full stack</i>',
+          cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

@@ -204,7 +204,7 @@
               h5 Figura 5.
               span Cinta métrica
             figure
-              img(src='@/assets/curso/temas/t2/fig5.png', alt='Cinta métrica enrollada en varias capas, con segmentos numerados visibles y líneas de medición en tramos diferenciados.')
+              img(src='@/assets/curso/temas/t2/fig5-2.png', alt='Cinta métrica enrollada en varias capas, con segmentos numerados visibles y líneas de medición en tramos diferenciados.')
         .row.justify-content-center
           .col-lg-10.col-11 
             h4.mb-4 Herramienta para escalas 
@@ -212,8 +212,8 @@
               h5 Figura 6.
               span Escalímetro
             figure
-              img(src='@/assets/curso/temas/t2/fig6.png', alt='Regla articulada de múltiples secciones unidas por un tornillo, con marcas de medición a lo largo de cada segmento.')
-            figcaption Fuente: 
+              img(src='@/assets/curso/temas/t2/fig6-2.png', alt='Regla articulada de múltiples secciones unidas por un tornillo, con marcas de medición a lo largo de cada segmento.')
+            //figcaption Fuente: 
               a(href="https://www.papelerialagaviota.com/pagina-del-producto/escalimetro-de-abanico" target="_blank") https://www.papelerialagaviota.com/pagina-del-producto/escalimetro-de-abanico
         .row.justify-content-center
           .col-lg-10.col-11 
