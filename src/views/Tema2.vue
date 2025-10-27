@@ -212,7 +212,7 @@
               h5 Figura 6.
               span Escalímetro
             figure
-              img(src='@/assets/curso/temas/t2/fig6-2.png', alt='Regla articulada de múltiples secciones unidas por un tornillo, con marcas de medición a lo largo de cada segmento.')
+              img(src='@/assets/curso/temas/t2/fig6-3.png', alt='Instrumento de medición con varias escalas grabadas que permite representar dimensiones reales a diferentes proporciones. Se utiliza principalmente en dibujo técnico, patronaje, arquitectura e ingeniería para interpretar o elaborar planos a escala con precisión.')
             //figcaption Fuente: 
               a(href="https://www.papelerialagaviota.com/pagina-del-producto/escalimetro-de-abanico" target="_blank") https://www.papelerialagaviota.com/pagina-del-producto/escalimetro-de-abanico
         .row.justify-content-center
