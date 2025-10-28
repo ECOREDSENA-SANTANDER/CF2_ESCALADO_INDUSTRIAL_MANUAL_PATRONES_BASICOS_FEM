@@ -221,7 +221,7 @@
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 7.
               span #[em Software] para escalado Audaces
-            figure
+            figure.mb-2
               img(src='@/assets/curso/temas/t2/fig7.png', alt='Interfaz digital con piezas de patronaje dispuestas sobre fondo oscuro, delimitadas por líneas curvas y rectas con medidas visibles, organizadas para su trazado o escalado.')
             figcaption Fuente: 
               a(href="https://audaces.com/es/blog/patronaje-digital" target="_blank") https://audaces.com/es/blog/patronaje-digital

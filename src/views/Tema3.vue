@@ -46,10 +46,7 @@
           span Plano cartesiano
         figure.mb-3
           img(src='@/assets/curso/temas/t3/fig9.svg', alt='Plano cartesiano con líneas horizontales y verticales que se cruzan en el centro, marcando el punto de origen. Está dividido en cuatro cuadrantes numerados, con los ejes identificados como X y Y.')
-        figcaption.des Fuente: 
-          a(href="https://mariacolon-hatonuevo-4r.weebly.com/matemaacuteticas/el-plano-cartesiano" target="_blank") https://mariacolon-hatonuevo-4r.weebly.com/matemaacuteticas/el-plano-cartesiano
-
-
+        
     //.mb-5(data-aos="fade")
       .row.justify-content-center
         .col-lg-12
@@ -94,9 +91,7 @@
             span Ejes en coordenadas
           figure.mb-3
             img(src='@/assets/curso/temas/t3/fig10.svg', alt='Plano cartesiano con líneas perpendiculares que representan los ejes X y Y, señalados como abscisa y ordenada, respectivamente. El punto de intersección marca el origen del sistema.')
-          figcaption Fuente: 
-            a(href=" https://www.significados.com/plano-cartesiano/" target="_blank") https://www.significados.com/plano-cartesiano/
-      
+          
 
     .bg-1.mb-4(data-aos="fade")
       .row.align-items-center
@@ -134,9 +129,7 @@
         .col-lg-6.col-md-9
           figure.mb-3
             img(src='@/assets/curso/temas/t3/fig11.svg', alt='Plano cartesiano con numeración positiva y negativa sobre los ejes X y Y. El punto de intersección está señalado como origen o punto cero mediante una flecha descriptiva.')
-          figcaption Fuente: 
-            a(href="https://www.significados.com/plano-cartesiano/" target="_blank") https://www.significados.com/plano-cartesiano/
-
+          
     .row.justify-content-center.mb-5
       .col-lg-8
         .bg-1.tarjeta.p-4
@@ -160,8 +153,6 @@
           span Ejemplo de aplicación paso 1
         figure.mb-3
           img(src='@/assets/curso/temas/t3/fig12.svg', alt='Plano cartesiano con fondo cuadriculado, dividido en cuatro cuadrantes numerados con cifras romanas. Incluye cuatro puntos con coordenadas señaladas mediante líneas punteadas desde los ejes, ubicados en distintas posiciones del plano.')
-        figcaption Fuente: 
-          a(href=" https://www.significados.com/plano-cartesiano/" target="_blank") https://www.significados.com/plano-cartesiano/
       .col-lg-6(data-aos="fade-left")
         p En el plano cartesiano presentado en la figura 12, cada par ordenado (X, Y) se ubica según la distancia y el sentido desde el origen (0, 0) a lo largo de los ejes:
         .tarjeta.bg-4.p-4
@@ -181,9 +172,7 @@
         .col-lg-7.col-md-10
           figure.mb-3
             img(src='@/assets/curso/temas/t3/fig13.svg', alt='Se presenta un plano cartesiano en el que el punto de origen del trazo es P(-4, -3), ubicado en el tercer cuadrante, y el punto final es P(3, 4), situado en el primer cuadrante. Ambos están unidos por un segmento de recta que representa la conexión entre sus coordenadas. ')
-          figcaption Fuente: 
-            a(href=" https://www.significados.com/plano-cartesiano/" target="_blank") https://www.significados.com/plano-cartesiano/
-
+          
     p.mb-4 Explicación de la figura 13.
 
     TabsA.color-acento-contenido.mb-4(data-aos="fade-down")
